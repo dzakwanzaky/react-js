@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+
+  a,
+  a:visited {
+    outline: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .nav {
+    width: 500px;
+    margin: 20px auto;
+    max-width: 48em;
+    border: 1px solid #333;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+  }
+
+  .menu {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: background .15s ease-in;
+  }
+
+  .menu:hover {
+    background: #ddd;
+  }
+
+  .Merah.is-active {
+    background: #f44141;
+  }
+
+  .Kuning.is-active {
+    background: #f4ee42;
+  }
+
+  .Hijau.is-active {
+    background: #41f465;
+  }
+
+  .Biru.is-active {
+    background: #41aff4;
+  }
+
+  .info {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .selected {
+    margin-left: 5px;
+    padding: 5px 10px;
+    vertical-align: middle;
+    border-radius: 4px;
+    background: #ddd;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  .Merah.selected {
+    background: #f44141;
+  }
+
+  .Kuning.selected {
+    background: #f4ee42;
+  }
+
+  .Hijau.selected {
+    background: #41f465;
+  }
+
+  .Biru.selected {
+    background: #41aff4;
+  }
+
+ /* .pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 50%;
+  }
+
+ 
+  .Merah.pic {
+    background-image: url("red.jpg");
+    width: 250px;
+    height: 255px;
+  }
+
+  .Kuning.pic {
+    background-image: url("yellow.jpg");
+    width: 250px;
+    height: 255px;
+  }
+
+  .Hijau.pic {
+    background-image: url("green.jpg");
+    width: 500px;
+    height: 570px;
+  }
+
+  .Biru.pic {
+    background-image: url("blue.jpg");
+    width: 320px;
+    height: 400px;
+    */
+  
