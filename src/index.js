@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './Custom.css'; //import cssnya
 import App from './App';
 import { appendFile } from 'fs';
+import * as serviceWorker from './serviceWorker';
 
 //const items = ['Merah','Kuning','Hijau','Biru'];
 
@@ -31,3 +32,5 @@ const items = [
 ReactDOM.render(<App items={items}/>,
   document.getElementById('root')
 );
+
+serviceWorker.register();
